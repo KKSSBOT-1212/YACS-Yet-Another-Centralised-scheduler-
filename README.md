@@ -4,14 +4,14 @@
 
 * **Concepts used:**__ Socket Programming , Scheduling algorithms , multithreading in Python.
 
-FILE DESCRIPTION:
+**--->FILE DESCRIPTION**:
 
-request.py -> Sends JOB requests to the master on PORT 5000.
+  request.py -> Sends JOB requests to the master on PORT 5000.
 
-master.py -> Listen for JOB requests on PORT 5000 & schedules the jobs to workers on PORT 5001.
+  master.py -> Listen for JOB requests on PORT 5000 & schedules the jobs to workers on PORT 5001.
 
-worker.py -> Send ACK to Master on PORT 5001.
+  worker.py -> Send ACK to Master on PORT 5001.
 
-analysis.py -> Code For Graphical Performance comparison between the scheduling algorithms.
+  analysis.py -> Code For Graphical Performance comparison between the scheduling algorithms.
 
-config.json -> Contains Worker Details(worker_id,slots,port).
+  config.json -> Contains Worker Details(worker_id,slots,port).
